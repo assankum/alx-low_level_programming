@@ -1,1 +1,3 @@
 File: 0-putchar.c writes a program that prints _putchar, followed by a new line.
+
+File: 1-alphabet.c writes a function that prints the alphabet, in lowercase, followed by a new line.
