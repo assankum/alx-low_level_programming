@@ -9,7 +9,7 @@
 * Return: 1 for success and 0 for failure
 */
 
-int _islower(int c)
+int _islower(char c)
 {
         if (c >= 'a' || c <= 'z')
                 return (1);
