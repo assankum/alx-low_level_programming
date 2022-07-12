@@ -6,3 +6,6 @@ File 2-strlen writes a c function that gets the length of the string passed as a
 
 File 3-puts writes a function that prints a string, followed by a new line
 
+File 4=print_rev writes a function that prints a string in reverse, followed by a new line
+
+
