@@ -22,7 +22,7 @@ void print_rev(char *s)
 		tmp = s[index];
 		s[index] = s[len - index - 1];
 		s[len - index - 1] = tmp;
-		_print(s[index]);
+		_putchar(s[index]);
 	}
 
 	_putchar('\n');
