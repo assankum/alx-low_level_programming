@@ -1,16 +1,19 @@
+/*
+ * File: 4-print_rev.c
+ * Auth: Assankum
+ */
+
 #include "main.h"
 
 /**
- * print_rev - prints a string in a reverse order, followed by a new line
- * @s: string to reverese
- * Return: void
+ * print_rev - Prints a string in reverse.
+ * @s: The string to be printed.
  */
-
 void print_rev(char *s)
 {
 	int len = 0, index;
 
-	while (*s++)
+	while (s[index++])
 		len++;
 
 	for (index = len - 1; index >= 0; index--)
@@ -18,3 +21,4 @@ void print_rev(char *s)
 
 	_putchar('\n');
 }
+
